@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "main": "api/index.js",
   "scripts": {
-    "build": "echo 'No build step needed'", 
-    "vercel-build": "echo 'Building for Vercel...'", 
+    "build": "echo 'No build step needed'",
     "start": "node api/index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "axios": "^1.3.5"
-  },
-  "devDependencies": {}
+  }
 }
