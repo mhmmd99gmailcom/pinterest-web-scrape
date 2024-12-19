@@ -1,6 +1,6 @@
 {
   "version": 2,
   "rewrites": [
-    { "source": "/pinterest", "destination": "/api/index.js" }
+    { "source": "/pinterest", "destination": "/api/pinterest.js" }
   ]
 }
