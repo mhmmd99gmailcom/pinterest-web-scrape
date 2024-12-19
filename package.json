@@ -1,6 +1,11 @@
 {
-  "version": 2,
-  "routes": [
-    { "src": "/pinterest", "dest": "/api/pinterest.js" }
-  ]
+  "name": "pinterest-scraper",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vercel dev",
+    "build": "echo 'Build step not needed for API-only project.'"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
 }
