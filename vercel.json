@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/pinterest", "destination": "/api/index.js" }
+  ]
+}
