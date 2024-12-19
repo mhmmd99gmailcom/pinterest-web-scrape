@@ -1,13 +1,6 @@
 {
-  "name": "pinterest-scraper",
-  "version": "1.0.0",
-  "main": "api/index.js",
-  "scripts": {
-    "build": "echo 'No build step needed'",
-    "start": "node api/index.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "axios": "^1.3.5"
-  }
+  "version": 2,
+  "routes": [
+    { "src": "/pinterest", "dest": "/api/pinterest.js" }
+  ]
 }
